@@ -7,7 +7,7 @@ import Close from "./close";
 
 const SearchWindow = ({click, id, state, setState, checkClick}) => {
   const key = '19c3fd00ffb8456dae8120317230807';
-  const link = `http://api.weatherapi.com/v1/current.json?key=${key}`;
+  const link = `https://api.weatherapi.com/v1/current.json?key=${key}`;
   const [city,setCity] = useState('');
   let [dataName,setDataName] = useState('');
   let [deegresInfo,setDeegresInfo] = useState('');
