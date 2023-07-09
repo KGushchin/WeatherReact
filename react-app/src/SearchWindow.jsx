@@ -21,7 +21,7 @@ const SearchWindow = ({click, id, state, setState, checkClick}) => {
      setTriagle(true);
 
      setTimeout(() => {
-         fetch(`${link}&q=${city}&lang=ru`)
+         fetch(`${link}&q=${city}&aqi=no`)
              .then(function(resp){
                  return resp.json()
              })
